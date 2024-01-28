@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+</head>
+<body><input type="text" id="taskField" placeholder="Task"><br>
+<input type="text" id="descriptionField" placeholder="Description"><br>
+
+<button id="startButton" onclick="toggleTimer()">Start</button>
+
+
+<div id="taskDescription"></div>
+<table id="logTable">
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>Description</th>
+            <th>Time Elapsed</th>
+        </tr>
+    </thead>
+    <tbody id="logTableBody"></tbody>
+</table>
+
+
+
+</body>
+<script src="./timer.js"></script>
+</html>
